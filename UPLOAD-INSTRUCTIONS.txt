@@ -1,0 +1,45 @@
+SIGNAL & SAGE — GITHUB PAGES EDITION
+
+1. Extract this ZIP.
+2. Open your SIgnal-Sage repository on GitHub.
+3. Choose Add file > Upload files.
+4. Upload index.html, day-to-day.html, team.json, the entire assets folder,
+   and .nojekyll if your file browser displays it.
+   These files must be in the repository root, alongside README.md,
+   NOT inside an extra github-pages or signal-sage folder.
+5. Commit the changes.
+6. Go to Settings > Pages. Under Build and deployment, choose
+   Deploy from a branch, then main and / (root). Save.
+7. Wait for the Pages deployment to finish, then visit:
+   https://yamensw.github.io/SIgnal-Sage/
+   Refresh the page if it still shows the old README.
+
+The existing README may remain. The new index.html is the website entry page.
+Your previous source files can also remain; this package does not use them.
+No npm commands, Cloudflare account, database, or build workflow is needed.
+Do not upload the ZIP itself as the website.
+
+WHAT WORKS
+Main website, mobile navigation, team profile dialogs, separate Day to Day page,
+and an email link. All paths work under /SIgnal-Sage/ or another repository name.
+
+EDIT TEAM MEMBERS
+Edit team.json in GitHub, then commit the change.
+Each entry has id, name, title, startDate (YYYY-MM-DD or blank), bio,
+responsibilities, and photo. Keep valid JSON syntax.
+To replace a photo, upload a PNG, JPG, or WebP to assets and update its photo
+value, for example assets/new-team-member.webp. No image-upload admin is included.
+Use an empty array [] to remove all profiles.
+
+EDIT OTHER CONTENT
+Homepage: index.html
+Day-to-day journal: day-to-day.html
+Styles: assets/style.css
+
+TEMPORARY STATIC LIMITATIONS
+No password login, admin editor, uploaded-photo storage, or inquiry database.
+Team updates require committing team.json and photos to GitHub.
+The contact button opens the visitor's email application; the website does not
+send or save messages. Verify hello@signalandsage.com before public use.
+The journal is sample content. Project results remain labeled illustrative.
+The full backend version remains available in your earlier package.

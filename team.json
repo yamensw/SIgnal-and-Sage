@@ -1,0 +1,29 @@
+[
+  {
+    "id": "luka",
+    "name": "Luka Vanderbilt",
+    "title": "Co-Founder · Business & Operations Lead",
+    "startDate": "",
+    "bio": "Relational, proactive, and operationally driven. Luka translates human need into strategic action.",
+    "responsibilities": "Company operations, community outreach, client relationships, and business strategy.",
+    "photo": "assets/luka.webp"
+  },
+  {
+    "id": "christoph",
+    "name": "Christoph Polinsky",
+    "title": "Co-Founder · Technical Lead & Education Director",
+    "startDate": "",
+    "bio": "An imaginative builder with a systems mindset. Christoph connects technical invention with practical education.",
+    "responsibilities": "Websites, CRM systems, custom software, and early childhood education programs.",
+    "photo": "assets/christoph.webp"
+  },
+  {
+    "id": "morat",
+    "name": "Morat Novak",
+    "title": "Co-Founder · Finance & Education Strategist",
+    "startDate": "",
+    "bio": "Thoughtful, strategic, and community-minded. Morat brings financial clarity and a belief in learning across generations.",
+    "responsibilities": "Finance strategy, owner workshops, educational programs, and sustainable growth.",
+    "photo": "assets/morat.webp"
+  }
+]
